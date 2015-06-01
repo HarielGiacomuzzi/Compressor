@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB6571BB1B1CA89A003A380B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB6571BA1B1CA89A003A380B /* main.cpp */; };
+		DB6571C41B1CC1A9003A380B /* PixelManip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB6571C21B1CC1A9003A380B /* PixelManip.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		DB6571B71B1CA89A003A380B /* Compressor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Compressor; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6571BA1B1CA89A003A380B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DB6571C11B1CAD3C003A380B /* Lena.ppm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lena.ppm; sourceTree = "<group>"; };
+		DB6571C21B1CC1A9003A380B /* PixelManip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PixelManip.cpp; sourceTree = "<group>"; };
+		DB6571C31B1CC1A9003A380B /* PixelManip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixelManip.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,10 @@
 		DB6571B91B1CA89A003A380B /* Compressor */ = {
 			isa = PBXGroup;
 			children = (
+				DB6571C11B1CAD3C003A380B /* Lena.ppm */,
 				DB6571BA1B1CA89A003A380B /* main.cpp */,
+				DB6571C21B1CC1A9003A380B /* PixelManip.cpp */,
+				DB6571C31B1CC1A9003A380B /* PixelManip.h */,
 			);
 			path = Compressor;
 			sourceTree = "<group>";
@@ -118,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6571C41B1CC1A9003A380B /* PixelManip.cpp in Sources */,
 				DB6571BB1B1CA89A003A380B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
